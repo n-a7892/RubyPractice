@@ -1,3 +1,5 @@
+# 1からnまでの数のaの倍数でもbの倍数でもない数の和を求める
+
 def fizzbuzzsumhard(n,a,b)
   sum = 0
   i = 1
@@ -9,6 +11,7 @@ def fizzbuzzsumhard(n,a,b)
   end
   return sum
 end
+
 
 # def fizzbuzzsumhard2(n,a,b)
 #   sum = 0
